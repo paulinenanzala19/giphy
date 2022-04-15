@@ -11,7 +11,7 @@ export class GiphyService {
 
   constructor(private http:HttpClient) { }
 
-  getGifs() :Observable<object>{
+  trendingGifs() :Observable<any>{
     return this.http.get(this.baseurl)
 
   }

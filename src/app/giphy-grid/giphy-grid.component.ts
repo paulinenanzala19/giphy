@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GiphyService } from '../giphy.service';
 
 @Component({
   selector: 'app-giphy-grid',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GiphyGridComponent implements OnInit {
 
+ 
+
+
   constructor() { }
 
   ngOnInit(): void {
+    
   }
+  
+  
 
 }
+

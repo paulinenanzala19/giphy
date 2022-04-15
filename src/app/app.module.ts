@@ -16,7 +16,7 @@ import { GiphyGridComponent } from './giphy-grid/giphy-grid.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

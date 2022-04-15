@@ -1,1 +1,13 @@
-<p>giphy works!</p>
+<div class="container-fluid d-flex flex-wrap justify-content-center">
+    <div class="gif m-2 p-2 w-auto h-auto align-middle" *ngFor="let gif of trendingGifs">
+        <div class="card" style="width: 18rem;">
+            <img [src]="gif.images.downsized.url" alt="">
+            <!-- <div class="card-body">
+             
+            </div> -->
+          </div>
+
+       
+
+    </div>
+</div>
