@@ -4,10 +4,14 @@ import { HttpClientModule } from '@angular/common/http'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { GiphyComponent } from './giphy/giphy.component';
+import { GiphyGridComponent } from './giphy-grid/giphy-grid.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GiphyComponent,
+    GiphyGridComponent
   ],
   imports: [
     BrowserModule,
